@@ -1,0 +1,78 @@
+.sidebar {
+    width: 420px;
+    background-color: var(--primary-color);
+}
+
+.container {
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    border: 5px solid var(--secondary-color);
+}
+
+.info {
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.userName {
+    margin: 0;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.userRole {
+    margin: 0;
+    font-weight: 500;
+    color: var(--tertiary-color);
+}
+
+.aboutMe p {
+    font-size: 26px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: var(--tertiary-color);
+    padding: 30px;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 60px 0;
+    font-size: 46px;
+}
+
+.socialMedia a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#linkedin:hover {
+    color: #0048b5;
+}
+
+#github:hover {
+    color: #b30000;
+}
+
+#instagram:hover {
+    color: #c600ee;
+}
