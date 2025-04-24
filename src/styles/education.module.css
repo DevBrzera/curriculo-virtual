@@ -8,8 +8,8 @@
 }
 
 .title {
-    font-size: 40px;
-    padding: 30px 30px 30px 40px;
+    font-size: 36px;
+    padding: 15px 15px 15px 25px;
     font-weight: 600;
     margin-bottom: 0;
     border-radius: 10px 10px 0 0;
@@ -27,12 +27,12 @@
     color: var(--secondary-color);
     padding: 10px;
     border-radius: 5px 5px 0 0;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 .subContent {
     background-color: var(--quinary-color);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--senary-color);
     display: flex;
@@ -44,12 +44,19 @@
 .description {
     background-color: var(--quinary-color);
     padding: 10px;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     color: var(--quaternary-color);
     border-radius: 5px;
 }
 
 .date, .division, .fundation, .subtitle {
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .education {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
 }

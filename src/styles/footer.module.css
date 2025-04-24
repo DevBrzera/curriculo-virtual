@@ -1,7 +1,8 @@
 .footer {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 600;
     color: #6c757d;
     margin-top: 10px;
 }

@@ -10,3 +10,28 @@
     --senary-color: #606060;
 }
 
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: 1000;
+        background-color: var(--primary-color);
+    }
+
+    .main-content {
+        margin-top: calc(100px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .section {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+

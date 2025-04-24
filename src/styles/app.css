@@ -1,11 +1,19 @@
 .home {
     display: flex;
-    gap: 30px;
+    gap: 15px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .home {
+        margin-top: calc(100px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
